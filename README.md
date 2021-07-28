@@ -1,4 +1,4 @@
-# Telegram-ChatBot
+# Telegram ChatBot
 A telegram chatbot built with Chatterbot Python library. The bot trains itself with a pre-computed data set from [ChatterBot Corpus](https://chatterbot.readthedocs.io/en/stable/corpus.html) to engage in a converstaion. The bot stores the chat sqlite3 database named db.sqlite3 and uses this to train/imporve itself.
 
 # Requirements
