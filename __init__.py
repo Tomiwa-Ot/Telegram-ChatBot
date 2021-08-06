@@ -3,7 +3,7 @@ import telebot
 from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
-#Put bot api key
+# Put bot api key
 BOT_API = ""
 bot = telebot.TeleBot(token=BOT_API)
 english_bot = ChatBot("Steve", storage_adapter="chatterbot.storage.SQLStorageAdapter")
